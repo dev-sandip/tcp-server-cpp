@@ -99,7 +99,7 @@ Contains the `main` function that:
   - Roll Number :PUR079BCT087
   - Contact: 079bct087@ioepc.edu.np
 
-- **Samir Basnet**
+- **Samir Gautam**
    - Roll Number :PUR079BCT071
    - Contact: 079bct071@ioepc.edu.np
 
