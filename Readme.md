@@ -15,8 +15,8 @@ This project implements a basic TCP server in C++. The server listens for incomi
 
 ```
 .
-├── http_tcpServer_linux.cpp    # Implementation of the TcpServer class
-├── http_tcpServer_linux.h      # Header file for the TcpServer class
+├── http_tcp_server.cpp    # Implementation of the TcpServer class
+├── http_tcp_server.h      # Header file for the TcpServer class
 ├── main.cpp                    # Main file to run the server
 └── README.md                   # This README file
 ```
@@ -37,9 +37,9 @@ This project implements a basic TCP server in C++. The server listens for incomi
 2. **Compile the source files**:
 
    ```sh
-   g++ -c http_tcpServer_linux.cpp -o http_tcpServer_linux.o
+   g++ -c http_tcp_server.cpp -o http_tcp_server.o
    g++ -c main.cpp -o main.o
-   g++ http_tcpServer_linux.o main.o -o server
+   g++ http_tcp_server.o main.o -o server
    ```
 
    This will generate an executable named `server`.
